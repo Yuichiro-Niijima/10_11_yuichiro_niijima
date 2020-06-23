@@ -1,0 +1,269 @@
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+} 
+
+.wrapper{
+
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    min-height: 100vh;
+}
+
+/* ------------------------ */
+/* 背景
+/* ------------------------ */
+
+
+.daily_background {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: -100;
+    top: 0;
+} 
+
+
+.title {
+    height: 60px;
+    font-size: 30px; 
+}
+
+/* ------------------------ */
+/* それぞれのタスク
+/* ------------------------ */
+
+
+.item {
+    background-color: white;
+    border-radius: 15px;
+    display: inline-flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    margin-bottom:10px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.fa-circle {
+    width: 10%;
+    margin-left: 10px;
+}
+
+p{
+    width: 80%;
+}
+
+.text {
+    width: 80%;
+    height: 40px;
+    padding: 0;
+    font-size: 20px;
+    border: none;
+}
+
+.fa-trash-alt{
+    width: 10%;
+}
+
+.index_link{
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.timer_page{
+    top: 10px;
+}
+
+
+/* ------------------------ */
+/* 追加のタスク
+/* ------------------------ */
+
+.add_itemBox{
+    margin-top: auto;
+}
+
+
+.additem{
+
+    background-color: rgba(207, 203, 203, 0.363);
+}
+
+.addtext{
+    background-color: transparent;
+    border: none;
+}
+
+input::placeholder {
+    color:rgba(255, 255, 255, 0.678);
+}
+
+.fa-plus-circle {
+    font-size: 20px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+/* .fa-edit{
+    margin-right: 20px;
+} */
+
+::before{
+    margin-right: 20px;
+}
+
+
+
+h1{
+    text-align: center;
+    position: relative;
+}
+
+form{
+    position: absolute;
+    bottom: 0;
+}
+
+fieldset {
+    border: none;
+    width: 355px;
+    padding: 0;
+}
+
+input::file{
+    font-size: 40px;
+    flex-direction: space-around;
+}
+
+.uk-button:not(:disabled) {
+    
+    margin-top: 20px;
+}
+
+button.uk-button.uk-button-primary.uk-width-1-1 {
+    margin-top: 20px;
+}
+
+
+
+
+/* ------------------------------- */
+
+/*              timer               */
+
+/* ------------------------------- */
+
+
+.timer_title{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.timer_Box{
+    margin: auto;
+    text-align: center;
+}
+
+
+
+
+
+.btn-circle-fishy {
+    display: inline-block;
+    text-decoration: none;
+    color: #FFF;
+    width: 250px;
+    height: 250px;
+    line-height: 250px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    background-image: linear-gradient(45deg, #1fddff 15%, #66ff00 100%); 
+    transition: .4s;
+    font-size: 40px;
+}
+
+.analysis_button_Box{
+    margin: auto;
+    text-align: center;
+    
+    border: none;
+    height: 30px;
+  
+
+}
+
+
+.analysis_button{
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    transition: .4s
+
+}
+
+button#startBtn {
+    font-size: 25px;
+    border: none;
+    margin-top: 55px;
+}
+
+button#stopBtn {
+    font-size: 25px;
+    border: none;
+    margin-top: 55px;
+    
+}
+
+.fa-star {
+    margin-left: 7px;
+}
+
+.click_color{
+    color:orange;
+}
+.fa-star:before {
+    color: rgba(189, 182, 182, 0.644);
+
+}
+
+
+button#resetBtn{
+    font-size: 25px;
+    border: none;
+    margin-top: 100px;
+}
+
+.start_stop_button{
+    display: flex;
+}
+
+.uk-fieldset{
+    width: 300px;
+    margin: 20px;
+    top: 10px;
+}
+
+.login_form{
+    top:0;
+}
